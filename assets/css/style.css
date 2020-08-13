@@ -1,0 +1,48 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-top-header {
+    background-color: #5059d8 !important;
+}
+.bg-header {
+    background-color: #2f3697 !important;
+}
+.logo-title {
+    font-size: 18px;
+}
+.active{
+    border-bottom: 1px solid white;
+    background-color: #242975;
+}
+.menu:hover{
+    transition: .5s;
+    border-bottom: 1px solid white;
+    background-color: #242975;
+}
+.bg-img {
+    background-image: url('../img/bg-bengkel.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+.slogan {
+    width: fit-content;
+    height: fit-content;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+.bars-icon {
+    cursor: pointer; 
+    color: rgba(255,255,255,1) !important;
+    font-size: 24px;
+}
+.card-body h3{
+    transition: .2s !important;
+}
+.card-body:hover h3{
+    padding-top: 20px !important;
+}
